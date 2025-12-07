@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alfa+Slab+One&family=Anton&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kaushan+Script&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Press+Start+2P&family=Sixtyfour+Convergence&family=Suez+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kaushan+Script&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Suez+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Manufacturing+Consent&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Playwrite+AU+QLD:wght@100..400&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&family=Suez+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Manufacturing+Consent&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Playwrite+AU+QLD:wght@100..400&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&family=Suez+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alan+Sans:wght@300..900&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=BBH+Sans+Hegarty&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Manufacturing+Consent&family=Momo+Trust+Display&family=Momo+Trust+Sans:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nata+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Pacifico&family=Patua+One&family=Permanent+Marker&family=Pirata+One&family=Playwrite+AU+QLD:wght@100..400&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Science+Gothic:wght@100..900&family=Sixtyfour+Convergence&family=Stack+Sans+Headline:wght@200..700&family=Stack+Sans+Text:wght@200..700&family=Suez+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+/* -- Este código é protegido pelos direitos altorais, não deve ser usado e nem copiado 
+sem a altorização do altor.-- */
+
+
+:root {
+    --letra: 'Ubuntu', Arial, Helvetica, sans-serif;
+    --cor1: #cdcdcd;
+    --sombra: 0.2rem 0.2rem 0.2rem rgb(66, 65, 65);
+    --sombra2: 0.2rem 0.2rem 0.2rem rgb(195, 195, 195);
+    --fundo: rgb(255, 255, 255);
+    --cor2: rgb(156, 156, 156);
+}
+
+html {
+    font-size: 1.2vw;
+    margin-top: 0;
+}
+
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    background-color: var(--fundo);
+    color: black;
+    padding-top: 2rem;
+}h1 {
+    font-size: 4rem;
+    font-family: var(--letra), Arial, Helvetica, sans-serif;
+    letter-spacing: 0.4rem;
+    color: var(--cor1);
+    text-shadow: var(--sombra2);
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.4rem;
+}section {
+    padding: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 2rem;
+} a {
+    transition: 0.3s;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+a:hover {
+    transform: scale(1.05);
+}
+.icon1 {
+    position: fixed;
+    font-size: 20rem;
+    top: 2rem;
+    right: 5rem;
+    color: #f0f0f0;
+    z-index: -10;
+    transform: rotate(20deg);
+    text-shadow: var(--sombra2);
+    animation: fun 10s linear infinite alternate-reverse;
+}
+.icon2 {
+    position: fixed;
+    font-size: 20rem;
+    bottom: 2rem;
+    left: 5rem;
+    color: #f0f0f0;
+    z-index: -10;
+    transform: rotate(-20deg);
+    text-shadow: var(--sombra2);
+    animation: fun 10s linear infinite alternate;
+}@keyframes fun {
+    from {
+        transform: rotate(10deg);
+    }to {
+        transform: rotate(-10deg);
+    }
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    background-color: var(--cor1);
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: var(--sombra);
+    z-index: 1000;
+    i {
+        font-size: 1.8rem;
+        background-color: white;
+        padding: 0.5rem;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: var(--cor2);
+        box-shadow: 0 0 0.3rem black;
+    }
+}
+
+#inicio {
+    display: grid;
+    grid-template-columns: 27.5% 67.5%;
+    gap: 5%;
+    img {
+        width: 100%;
+        border-radius: 1rem;
+        transform-style: preserve-3d;
+        box-shadow: var(--sombra);
+        animation: foto 2s linear infinite alternate;
+
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        h1 {
+            color: var(--cor2);
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: var(--cor1);
+        }
+    }
+}@keyframes foto {
+    from {
+        transform: rotateY(-10deg) rotateX(-5deg);
+    }
+    to {
+        transform: rotateY(10deg) rotateX(5deg);
+    }
+}
+
+#links {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        background-color: var(--cor2);
+        color: white;
+        border-radius: 0.5rem;
+        box-shadow: var(--sombra);
+        position: relative;
+        i {
+            position: absolute;
+            right: 1rem;
+            top: 0;
+            transform: rotateY(-10deg) translateY(-50%);
+            transform-style: preserve-3d;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--cor2);
+            font-size: 1.5rem;
+            background-color: var(--fundo);
+            box-shadow: var(--sombra);
+            animation: iconlink 1s linear infinite alternate;
+        }
+    }
+}@keyframes iconlink {
+    from {
+        transform: translateY(-60%);
+    }
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+#biografia {
+    display: grid;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 2rem;
+    background-color: var(--cor1);
+    border-radius: 1rem;
+    grid-template-columns: 27.5% 67.5%;
+    gap: 5%;
+    box-shadow: var(--sombra);
+    img {
+        box-shadow: var(--sombra);
+        border-radius: 1rem;
+        width: 100%;
+        transform: rotate(-5deg);
+        animation: bioimg 5s linear infinite alternate;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        height: 16rem;
+        overflow-y: scroll;
+        padding-right: 2rem;
+        h2 {
+            font-family: var(--letra);
+            color: var(--cor2);
+            text-transform: uppercase;
+        }
+    }
+}#destaques {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    div {
+        padding: 1.5rem;
+        border-radius: 1rem;
+        background-color: var(--cor2);
+        box-shadow: var(--sombra);
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        color: white;
+        h3 {
+            font-family: var(--letra);
+            letter-spacing: 0.15rem;
+        }
+    }
+}
+.titulo {
+    text-align: center;
+    font-family: var(--letra);
+    color: var(--cor2);
+    margin-top: 2rem;
+}
+
+#depoimentos {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}.depo {
+    display: grid;
+    grid-template-columns: 27.5% 67.5%;
+    gap: 5%;
+    background-color: var(--cor2);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--sombra);
+    img {
+        width: 100%;
+        border-radius: 0.5rem;
+        box-shadow: var(--sombra);
+        animation: depoi 2s linear infinite alternate;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        color: white;
+        a {
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 1.4rem;
+            font-family: var(--letra);
+            color: white;
+        }a:hover {
+            transform: none;
+        }
+    }
+}@keyframes depoi {
+    to {
+        transform: scale(1.05) rotate(2deg);
+    }
+}
+
+#memorias {
+    display: flex;
+    align-items: stretch;
+    overflow-x: scroll;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 1rem 0.5rem;
+    gap: 2rem;
+    .recor {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 37.7% 57.5%;
+        gap: 5%;
+        flex: none;
+        background-color: var(--cor1);
+        padding: 1rem;
+        padding-top: 2rem;
+        border-radius: 1rem;
+        box-shadow: var(--sombra);
+        img {
+            width: 100%;
+            box-shadow: var(--sombra);
+            border-radius: 0.5rem;
+            height: 100%;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 0rem;
+            h3 {
+                width: 100%;
+                padding: 0.5rem;
+                background-color: var(--cor2);
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                border-radius: 0.5rem;
+                color: white;
+                box-shadow: var(--sombra);
+                transform: translate(-8rem, -1rem);
+                i {
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    width: 3rem;
+                    height: 3rem;
+                    font-size: 1.5rem;
+                    color: var(--cor2);
+                }
+            }
+        }
+    }
+}::-webkit-scrollbar {
+    display: none;
+}
+
+  
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 2rem;
+    background-color: var(--cor1);
+    margin-top: 2rem;
+}
+
+
+
+/* -- Responsividade para dispositivos moveis -- */
+@media (min-width: 768px) and (max-width: 1024px) {
+html { 
+    font-size: 1.9vw;
+}
+section {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 0;
+}a:hover {
+    transform: scale(1.0);
+}
+.redes {
+    right: 1rem;
+    i {
+        font-size: 2rem;
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+#inicio {
+    grid-template-columns: auto;
+    gap: 2rem;
+    img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+#links {
+    grid-template-columns: auto;
+    row-gap: 3rem;
+    a {
+        i {
+            width: 5rem;
+            height: 5rem;
+            font-size: 2.5rem;
+        }
+    }
+}@keyframes iconlink {
+    from {
+        transform: translateY(-50%);
+    }
+    to {
+        transform: translateY(-40%);
+    }
+}#biografia {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    grid-template-columns: 42.5% 52.5%;
+}
+#destaques {
+    grid-template-columns: auto;
+}
+
+#depoimentos {
+    grid-template-columns: auto;
+}
+
+#memorias {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    gap: 2rem;
+    .recor {
+        width: 100%;
+        grid-template-columns: 42.5% 52.5%;
+        gap: 5%;
+        img {
+            height: 85%;
+        }
+    }
+}
+}
+
+
+
+
+@media (max-width: 767px) {
+html {
+    font-size: 2.7vw;
+}
+section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0;
+}a:hover {
+    transform: scale(1.0);
+}.redes {
+    right: 1rem;
+    i {
+        font-size: 2rem;
+        width: 4rem;
+        height: 4rem;
+    }
+}.titulo {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}.icon1 {
+    top: 5rem;
+    right: 5rem;
+}
+.icon2 {
+    bottom: 5rem;
+    left: 5rem;
+}
+
+#inicio {
+    grid-template-columns: auto;
+    gap: 2rem;
+    img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+#links {
+    grid-template-columns: auto;
+    row-gap: 3rem;
+    text-align: center;
+    a {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        i {
+            width: 4rem;
+            height: 4rem;
+            font-size: 2rem;
+        }
+    }
+}@keyframes iconlink {
+    from {
+        transform: translateY(-50%);
+    }
+    to {
+        transform: translateY(-40%);
+    }
+}#biografia {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    grid-template-columns: auto;
+    gap: 2rem;
+    img {
+        order: 2;
+        width: 70%;
+        margin: 0 auto;
+    }
+    div {
+        order: 1;
+        height: 20rem;
+    }
+}
+#destaques {
+    grid-template-columns: auto;
+}
+
+#depoimentos {
+    grid-template-columns: auto;
+}.depo {
+    grid-template-columns: 32.5% 62.5%;
+}
+
+#memorias {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 2rem;
+    .recor {
+        padding: 2rem;
+        width: 100%;
+        grid-template-columns: auto;
+        gap: 0;
+        div {
+            gap: 0;
+            h3 {
+                transform: translateY(-50%);
+                width: 85%;
+                margin: 0 auto;
+            }
+        }
+        img {
+            height: 100%;
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
